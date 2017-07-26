@@ -224,6 +224,10 @@ textarea{
 /* media queries*/
 @media screen and (max-width: 980px){
 	
+	.bigger_container{
+		max-width:768px;
+
+	}
 	.container{
 		width:325px;
 		height:975px;
@@ -273,7 +277,7 @@ textarea{
 	}
 	.container{
 		margin:auto;
-		max-width:90%;
+		width:90%;
 		height:800px;
 		left:0px;
 	}
@@ -288,9 +292,10 @@ textarea{
 
 		width:35%;
 		top:50px;
+		left:38px;
 	}
 	.story{
-
+		
 		width:75%;
 	}
 	.connect{
